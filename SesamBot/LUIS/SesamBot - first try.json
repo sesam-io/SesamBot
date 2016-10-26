@@ -1,0 +1,55 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "SesamBot - first try",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "GetEntities"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "NodeEntity"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "NodeEntities",
+      "mode": true,
+      "words": "license,pipes,systems,config,datasets",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "give me the license info",
+      "intent": "GetEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "give me systems info",
+      "intent": "GetEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    }
+  ]
+}

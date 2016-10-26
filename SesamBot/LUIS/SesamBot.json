@@ -1,0 +1,492 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "SesamBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AlertErrors"
+    },
+    {
+      "name": "GetErrors"
+    },
+    {
+      "name": "GetNodeEntities"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "StopAlerting"
+    }
+  ],
+  "entities": [
+    {
+      "name": "LogLevel"
+    },
+    {
+      "name": "NodeEntity"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "NodeEntity",
+      "mode": true,
+      "words": "license,datasets,systems,config,dataset",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "show me pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "stop warnings",
+      "intent": "StopAlerting",
+      "entities": []
+    },
+    {
+      "text": "stop alert",
+      "intent": "StopAlerting",
+      "entities": []
+    },
+    {
+      "text": "show pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "get config",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "stop alerts",
+      "intent": "StopAlerting",
+      "entities": []
+    },
+    {
+      "text": "get them pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "get datasets",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "show all pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "show license",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "show all systems",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "asdf",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "display config",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "give me those pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "get all systems",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "get license",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "get pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "give ma all pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "describe datasets",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "show systems",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "remove alerts",
+      "intent": "StopAlerting",
+      "entities": []
+    },
+    {
+      "text": "display all systems",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "give me all pipes",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "show datasets",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "display system",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "alert me",
+      "intent": "AlertErrors",
+      "entities": []
+    },
+    {
+      "text": "get systems",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "give me all errors",
+      "intent": "GetErrors",
+      "entities": [
+        {
+          "entity": "LogLevel",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "show me warnings",
+      "intent": "GetErrors",
+      "entities": [
+        {
+          "entity": "LogLevel",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "display logs",
+      "intent": "GetErrors",
+      "entities": []
+    },
+    {
+      "text": "show errors",
+      "intent": "GetErrors",
+      "entities": [
+        {
+          "entity": "LogLevel",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "get errors",
+      "intent": "GetErrors",
+      "entities": []
+    },
+    {
+      "text": "get piprs",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "gimme datasets",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "wtf?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "show license info",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "/delete",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "/disable",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "/diable",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "444",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "gimme systems",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "disable",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "display license",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "show config",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "alert snapshots",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kill sesam",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "display systems",
+      "intent": "GetNodeEntities",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "get errros",
+      "intent": "GetErrors",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "get errorrs",
+      "intent": "GetErrors",
+      "entities": [
+        {
+          "entity": "NodeEntity",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    }
+  ]
+}
